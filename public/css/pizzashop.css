@@ -1,0 +1,116 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  background-image: url('pizzabg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  background: #fff8e1;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  max-width: 900px;
+  width: 100%;
+}
+
+.title-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.title-box {
+  display: inline-block;
+  padding: 15px 25px;
+  border: 3px solid #8bc34a;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.title-box h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #d32f2f;
+  font-size: 2.2rem;
+  text-shadow: 1px 1px #fff;
+}
+
+.columns {
+  display: flex;
+  gap: 30px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column.left {
+  border-right: 2px solid #ccc;
+  padding-right: 20px;
+}
+
+.column.right {
+  padding-left: 20px;
+}
+
+.order-form label {
+  display: block;
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #ff7043;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e64a19;
+  transform: scale(1.05);
+}
+
+.receipt-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  border: 3px solid #8bc34a;
+}
+
+.receipt-box h3 {
+  text-align: center;
+  color: #388e3c;
+}
+
+.receipt-box .total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #d32f2f;
+  margin-top: 10px;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
